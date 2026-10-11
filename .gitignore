@@ -1,0 +1,26 @@
+# Environments
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ML Models and Data
+models/*.pt
+models/*.bin
+models/*.pth
+data/*.json
+data/*.csv
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+
+.venv/
+__pycache__/
+models/scorer.pt
+data/train_samples.json
+# Local run logs
+results/*.log
